@@ -29,7 +29,7 @@
             <div class="nav__menu" id="nav-menu">
                <ul class="nav__list">
                   <li class="nav__item">
-                     <a href="#home" class="nav__link">Home</a>
+                     <a href="#home" class="nav__link active-link">Home</a>
                   </li>
                   <li class="nav__item">
                      <a href="#popular" class="nav__link">Popular</a>
@@ -42,13 +42,20 @@
                   </li>
                </ul>
 
+               <!-- Close button -->
                <div class="nav__close" id="nav-close">
                   <i class="ri-close-line"></i>
                </div>
             </div>
 
-            <div class="nav__toggle" id="nav-toggle">
-               <i class="ri-menu-line"></i>
+            <div class="nav__buttons">
+               <!-- Theme change button -->
+               <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+               <!-- Toggle button -->
+               <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-menu-line"></i>
+               </div>
             </div>
          </nav>
       </header>
@@ -330,30 +337,340 @@ possible product for your home.
 
          <!--==================== FEATURES ====================-->
          <section class="features section">
-            
+            <div class="features__container container grid">
+               <div class="features__image">
+                  <div class="features__blob">
+                     <img src="assets/img/features-lamp.png" alt="features image" class="features__img">
+                     <h1 class="features__blob-title">LIGHT</h1>
+                  </div>
+
+                  <div class="features__shadow"></div>
+               </div>
+
+               <div class="features__content">
+                  <div class="features__data">
+                     <h2 class="section__title">Latest Features</h2>
+
+                     <p class="features__description">
+                        We always provide the latest and best 
+features for your customer, don't worry, we 
+provide the latest technology for you.
+                     </p>
+                  </div>
+
+                  <div class="features__info">
+                     <div class="features__info-card">
+                        <h3 class="features__info-title">
+                           Voltage <br> Settings      
+                        </h3>
+                     </div>
+
+                     <div class="features__info-card">
+                        <h3 class="features__info-title">
+                           Application <br> Control
+                        </h3>
+                     </div>
+
+                     <div class="features__info-card">
+                        <h3 class="features__info-title">
+                           Voice <br> Control
+                        </h3>
+                     </div>
+
+                     <div class="features__info-card">
+                        <h3 class="features__info-title">
+                           Schedule <br> Settings
+                        </h3>
+                     </div>
+                  </div>
+               </div>
+            </div>
          </section>
 
          <!--==================== PRODUCTS ====================-->
          <section class="products section" id="products">
-            
+            <div class="products__container container grid">
+               <div class="products__data">
+                  <h2 class="section__title">Our Product</h2>
+
+                  <p class="products__description">
+                     Discover all our unique products that 
+are suitable for your home.
+                  </p>
+               </div>
+
+               <div class="products__content grid">
+                  <article class="products__card">
+                     <div class="products__blob">
+                        <img src="assets/img/modern-lamp.png" alt="products image" class="products__img">
+                     </div>
+
+                     <h3 class="products__name">Modern Light</h3>
+                     <span class="products__subtitle">Hanging Light</span>
+                     <h3 class="products__price">
+                        <span>$</span>14
+                     </h3>
+                     
+                     <button class="products__button">
+                        <i class="ri-add-line"></i>
+                     </button>
+                  </article>
+                  
+                  <article class="products__card">
+                     <div class="products__blob">
+                        <img src="assets/img/industrial-lamp.png" alt="products image" class="products__img">
+                     </div>
+
+                     <h3 class="products__name">Industrial Light</h3>
+                     <span class="products__subtitle">Hanging Light</span>
+                     <h3 class="products__price">
+                        <span>$</span>20
+                     </h3>
+                     
+                     <button class="products__button">
+                        <i class="ri-add-line"></i>
+                     </button>
+                  </article>
+
+                  <article class="products__card">
+                     <div class="products__blob">
+                        <img src="assets/img/superbolw-lamp.png" alt="products image" class="products__img">
+                     </div>
+
+                     <h3 class="products__name">Superbolw Light</h3>
+                     <span class="products__subtitle">Hanging Light</span>
+                     <h3 class="products__price">
+                        <span>$</span>18
+                     </h3>
+                     
+                     <button class="products__button">
+                        <i class="ri-add-line"></i>
+                     </button>
+                  </article>
+
+                  <article class="products__card">
+                     <div class="products__blob">
+                        <img src="assets/img/ultrawide-lamp.png" alt="products image" class="products__img">
+                     </div>
+
+                     <h3 class="products__name">Ultrawide Light</h3>
+                     <span class="products__subtitle">Hanging Light</span>
+                     <h3 class="products__price">
+                        <span>$</span>16
+                     </h3>
+                     
+                     <button class="products__button">
+                        <i class="ri-add-line"></i>
+                     </button>
+                  </article>
+
+                  <article class="products__card">
+                     <div class="products__blob">
+                        <img src="assets/img/roundness-light.png" alt="products image" class="products__img">
+                     </div>
+
+                     <h3 class="products__name">Roundness Light</h3>
+                     <span class="products__subtitle">Hanging Light</span>
+                     <h3 class="products__price">
+                        <span>$</span>17
+                     </h3>
+                     
+                     <button class="products__button">
+                        <i class="ri-add-line"></i>
+                     </button>
+                  </article>
+
+                  <article class="products__card">
+                     <div class="products__blob">
+                        <img src="assets/img/stickness-light.png" alt="products image" class="products__img">
+                     </div>
+
+                     <h3 class="products__name">Stickness Light</h3>
+                     <span class="products__subtitle">Hanging Light</span>
+                     <h3 class="products__price">
+                        <span>$</span>28
+                     </h3>
+                     
+                     <button class="products__button">
+                        <i class="ri-add-line"></i>
+                     </button>
+                  </article>
+
+                  <article class="products__card">
+                     <div class="products__blob">
+                        <img src="assets/img/superjet-light.png" alt="products image" class="products__img">
+                     </div>
+
+                     <h3 class="products__name">Superjet Light</h3>
+                     <span class="products__subtitle">Hanging Light</span>
+                     <h3 class="products__price">
+                        <span>$</span>15
+                     </h3>
+                     
+                     <button class="products__button">
+                        <i class="ri-add-line"></i>
+                     </button>
+                  </article>
+
+                  <article class="products__card">
+                     <div class="products__blob">
+                        <img src="assets/img/nakedness-lamp.png" alt="products image" class="products__img">
+                     </div>
+
+                     <h3 class="products__name">Nakedness Light</h3>
+                     <span class="products__subtitle">Hanging Light</span>
+                     <h3 class="products__price">
+                        <span>$</span>10
+                     </h3>
+                     
+                     <button class="products__button">
+                        <i class="ri-add-line"></i>
+                     </button>
+                  </article>
+               </div>
+            </div>
          </section>
 
          <!--==================== JOIN ====================-->
          <section class="join section">
-            
+            <div class="join__container container grid">
+               <div class="join__bg grid">
+                  <div class="join__image">
+                     <div class="join__blob">
+                        <img src="assets/img/join-lamp.png" alt="join image" class="join__img">
+                        <h1 class="join__blob-title">LIGHT</h1>
+                     </div>
+
+                     <div class="join__shadow"></div>
+                  </div>
+
+                  <div class="join__content grid">
+                     <div class="join__data">
+                        <h2 class="section__title">Get Started</h2>
+
+                        <p class="join__description">
+                           Do not miss it, join us and get <br>
+interesting discounts with us.
+                        </p>
+                     </div>
+
+                     <form action="" class="join__form">
+                        <input type="email" placeholder="Enter your email" class="join__input">
+                        
+                        <button class="button join__button">
+                           Join Now
+                        </button>
+                     </form>
+                  </div>
+               </div>
+            </div>
          </section>
       </main>
 
       <!--==================== FOOTER ====================-->
       <footer class="footer">
-         
+         <div class="footer__container container grid">
+            <div class="footer__content grid">
+               <div class="">
+                  <a href="#" class="footer__logo">
+                     SUN<span>LIGHT</span>
+                  </a>
+
+                  <div class="footer__description">
+                     We have a vision to make <br> 
+lighting evenly distributed to all <br> 
+parts of the earth.
+                  </div>
+               </div>
+
+               <div class="footer__data grid">
+                  <div class="">
+                     <h3 class="footer__title">About</h3>
+                     <ul class="footer__links">
+                        <li>
+                           <a href="#" class="footer__link">About Us</a>
+                        </li>
+                        
+                        <li>
+                           <a href="#" class="footer__link">Features</a>
+                        </li>
+                        
+                        <li>
+                           <a href="#" class="footer__link">New & Blog</a>
+                        </li>
+                     </ul>
+                  </div>
+
+                  <div class="">
+                     <h3 class="footer__title">Movement</h3>
+                     <ul class="footer__links">
+                        <li>
+                           <a href="#" class="footer__link">What Sunlight</a>
+                        </li>
+                        
+                        <li>
+                           <a href="#" class="footer__link">Support Us</a>
+                        </li>
+                     </ul>
+                  </div>
+
+                  <div class="">
+                     <h3 class="footer__title">Company</h3>
+                     <ul class="footer__links">
+                        <li>
+                           <a href="#" class="footer__link">Why Sunlight</a>
+                        </li>
+                        
+                        <li>
+                           <a href="#" class="footer__link">Capital</a>
+                        </li>
+                        
+                        <li>
+                           <a href="#" class="footer__link">Security</a>
+                        </li>
+                     </ul>
+                  </div>
+
+                  <div class="">
+                     <h3 class="footer__title">Follow Us</h3>
+                     
+                     <div class="footer__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                           <i class="ri-facebook-circle-line"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                           <i class="ri-instagram-line"></i>
+                        </a>
+
+                        <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                           <i class="ri-twitter-line"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="footer__group">
+               <div class="footer__terms">
+                  <a href="#">Terms & Agreements</a>
+                  <a href="#">Privacy Policy</a>
+               </div>
+
+               <span class="footer__copy">
+                  &#169; Copyright Bedimcode. All rights reserved
+               </span>
+            </div>
+         </div>
       </footer>
 
       <!--========== SCROLL UP ==========-->
-
+      <a href="#" class="scrollup" id="scroll-up">
+         <i class="ri-arrow-up-line"></i>
+      </a>
 
       <!--=============== SCROLLREVEAL ===============-->
-      <script src=""></script>
+      <script src="assets/js/scrollreveal.min.js"></script>
 
       <!--=============== SWIPER JS ===============-->
       <script src="assets/js/swiper-bundle.min.js"></script>
